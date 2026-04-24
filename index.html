@@ -2,51 +2,79 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Portafolio | Estudiante de Filosofía & Dev</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francisco Martínez | Filósofo & Programador</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <div class="menu">
-            <h1>franciscomartinezpenata</h1>
+        <div class="logo">
+            <h1>Francisco Martínez</h1>
         </div>
-        <nav
+        <nav>
             <ul>
-                <li><a href= "sobre mi"> sobre mi </a></li>
-                <li><a href="mascotas.html">Proyectos</a></li>
-                <li><a href="contacto">contacto</a></li>
-             </ul>
-            </nav>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="mascotas.html">Mascotas</a></li>
+            </ul>
+        </nav>
     </header>
 
-<head>
-    <meta charset="UTF-8"><!DOCTYPE html>
-<html lang="es">
-    <meta name="viewport" device-widthcontent="width=device-width, initial-scale=1.0">
-    <title>FRANCISCO MARTINEZ</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
-</html>
-    <section id="sobre-mi">
-        <h2>¿Quién soy?</h2>
-        <p>Tengo 26 años, estudio filosofía y me apasiona la lógica aplicada a la tecnología.</p>
-    </section>
+    <main>
+        
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            
+            <img src="/image/foto franciscomartinez.png" alt="Foto de Francisco Martínez" class="foto-perfil">
 
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Pensamiento Crítico</li>
-            <li>Python (Listas, Diccionarios)</li>
-            <li>Análisis Ético</li>
-        </ul>
-    </section>
+            <p>
+                Tengo 26 años y soy estudiante de Filosofía en Barranquilla. Mi camino en la tecnología 
+                nace de la curiosidad por la lógica aplicada. Actualmente, me encuentro formándome en 
+                <strong>Python, HTML y CSS</strong>, buscando integrar el pensamiento crítico con la 
+                creación de software funcional.
+            </p>
+        </section>
+
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <p>Aquí algunos de los retos técnicos que he desarrollado:</p>
+            <ul>
+                <li><strong>Gestor de Estudiantes:</strong> Aplicación en Python usando listas y diccionarios.</li>
+                <li><strong>Calculadora de Tarifas:</strong> Herramienta lógica para servicios de transporte.</li>
+                <li><strong>Portafolio Web:</strong> Este sitio creado desde cero con HTML5 y CSS3.</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Te interesa mi perfil o quieres charlar sobre filosofía y código? ¡Escríbeme!</p>
+            
+            <form action="#" method="POST">
+                <div class="grupo-input">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="¿En qué puedo ayudarte?"></textarea>
+                </div>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+    </main>
 
     <footer>
-        <p>Contacto: franciscomartinezpenata@gmail.com</p>
+        <p>&copy; 2026 - Francisco Martínez Peñata | Barranquilla, Colombia</p>
     </footer>
 
 </body>
